@@ -2,10 +2,10 @@
 
 ## Info
 
-This Dockerfile creates a container running PostGIS 2.1 in PostgreSQL 9.3
+This Dockerfile creates a container running PostGIS 2.1 in PostgreSQL 9.4
 
 - expose port `5432`
-- initializes a database in `/var/lib/postgresql/9.3/main`
+- initializes a database in `/var/lib/postgresql/9.4/main`
 - superuser in the database: `jolly/jolly`
 
 
